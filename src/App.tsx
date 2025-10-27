@@ -26,8 +26,8 @@ function App() {
         <RMarker
           longitude={markerPosition[0]}
           latitude={markerPosition[1]}
-          // draggable
-          // onDragEnd={(e) => setMarkerPosition(e.lngLat.toArray())}
+          draggable
+          onDragEnd={(e) => setMarkerPosition(e.lngLat.toArray())}
         />
       )}
     </RMap>
